@@ -1,6 +1,7 @@
 .container {
   display: grid;
-  grid-template-columns: 500px;
+  grid-template-columns: 100%;
+  /* grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); */
   grid-template-rows: repeat(2, minmax(150px, auto));
   grid-template-areas: 'hd''banner''post''ft';
 }
@@ -19,7 +20,7 @@ footer {
 
 .posts {
   display: grid;
-  height: 370px;
+  height: 50vh;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   padding-top: 20px;
@@ -53,7 +54,7 @@ footer {
 
   .posts {
     display: grid;
-    height: 370px;
+    height: 50vh;
     grid-template-columns: repeat(4, 205px);
     grid-template-rows: 170px;
     grid-gap: 10px;
@@ -72,7 +73,8 @@ footer {
 
   .posts {
     display: grid;
-    grid-template-columns: repeat(4, 205px);
+    /* grid-template-columns: repeat(4, 205px); */
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 170px;
     grid-gap: 100px;
     padding-top: 80px;

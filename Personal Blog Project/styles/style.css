@@ -61,7 +61,7 @@ li:hover {
 
 .quote {
   text-align: center;
-  height: 150px;
+  height: 20vh;
   line-height: 25px;
   letter-spacing: 1px;
 }
@@ -151,7 +151,7 @@ button:hover {
 
   .right-panel {
     margin-right: 30px;
-    height: 167px;
+    height: 20vh;
     width: 50%;
   }
 
@@ -171,8 +171,8 @@ button:hover {
 
 
   .card img {
-    width: 180px;
-    height: 132px;
+    width: 60%;
+    height: 50%;
     border: 1px solid #fff;
   }
 
@@ -199,7 +199,8 @@ button:hover {
 @media (min-width: 901px) {
 
   nav {
-    width: 600px;
+    /* width: 600px; */
+    width: 50%;
     margin: 10px auto;
   }
 
@@ -213,19 +214,20 @@ button:hover {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    width: 915px;
+    /* width: 915px; */
+    width: 70%;
     margin: 0 auto;
   }
 
   .right-panel {
-    height: 185px;
-    width: 365px;
+    /* height: 185px; */
+    /* width: 365px; */
+    width: 40%;
     margin-right: 30px;
   }
 
   .left-panel {
-    width: 343px;
-    height: 135px;
+    width: 40%;
     margin-bottom: 10px;
   }
 
@@ -238,8 +240,8 @@ button:hover {
   }
 
   .card img {
-    width: 205px;
-    height: 135px;
+    width: 80%;
+    height: 85%;
   }
 
   .card-container h4 {
